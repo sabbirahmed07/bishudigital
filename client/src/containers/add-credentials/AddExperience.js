@@ -67,7 +67,7 @@ class AddExperience extends Component {
 
     return (
       <div className="add-experience">
-        <div className="conainer">
+        <div className="container">
           <div className="row">
             <div className="col-md-8 m-aut0">
               <Link to="/dashboard" className="btn btn-light">
