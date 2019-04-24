@@ -56,7 +56,7 @@ class App extends Component {
         <Router>
           <div className="App">
             <Navbar />
-            <div className="container">
+            
               <Switch>
                 <Route exact path="/" component={Landing} />
                 <Route exact path="/register" component={Register} />
@@ -94,7 +94,7 @@ class App extends Component {
 
                 <Route component={NotFound} />
               </Switch>
-            </div>
+            
             <Footer />
           </div>
         </Router>
